@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(252, 250, 239);
+}
+
+.flex-container { 
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 10px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  border: 15px solid rgb(138, 118, 4);
+
+}
+
+.flex.item  {
+    border: 2px solid rgb(204, 155, 50);
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.satu {
+    background-color: rgb(56, 178, 235);
+    flex-basis: 245px;
+    height: 180px;
+}
+
+.dua {
+    background-color: rgb(250, 228, 157);
+    flex-basis: 245px;
+    height: 110px;
+}
+
+.tiga {
+    background-color: rgb(151, 237, 248);
+    flex-basis: 245px;
+    height: 300px;
+}
+
+.empat {
+    background-color: rgb(143, 231, 198);
+    width: 100px;
+    height: 300px;
+}
+
+.lima {
+    background-color: rgb(176, 238, 189);
+    width: 100px;
+    height: 100px;
+}
+
+.enam {
+    background-color: rgb(238, 176, 176);
+    width: 100px;
+    height: 100px;
+}
+
+.tujuh {
+    background-color: rgb(238, 204, 176);
+    width: 100px;
+    height: 300px;
+}
+
+.delapan {
+    background-color: rgb(153, 192, 236);
+    width: 351px;
+    height: 100px;
+}
+
+.sembilan {
+    background-color: rgb(180, 176, 238);
+    width: 100px;
+    height: 100px;
+}
+
+.sepuluh {
+    background-color: rgb(134, 226, 238);
+    width: 500px;
+    height: 100px;
+}
